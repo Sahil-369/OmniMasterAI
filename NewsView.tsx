@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { NewsItem } from '../types';
+import { NewsItem } from './types';
 import BannerAd from './BannerAd';
 
 interface NewsViewProps {

@@ -1,7 +1,7 @@
 
 import React from 'react';
-import { Roadmap, RoadmapStep } from '../types';
-import { useI18n } from '../services/i18n';
+import { Roadmap, RoadmapStep } from './types';
+import { useI18n } from './i18n';
 
 interface SidebarProps {
   roadmap: Roadmap;

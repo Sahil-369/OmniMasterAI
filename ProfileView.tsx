@@ -1,7 +1,7 @@
 
 import React, { useState, useRef, useEffect } from 'react';
-import { AuthUser, SavedSubject } from '../types';
-import { useI18n } from '../services/i18n';
+import { AuthUser, SavedSubject } from './types';
+import { useI18n } from './i18n';
 
 interface ProfileViewProps {
   user: AuthUser;

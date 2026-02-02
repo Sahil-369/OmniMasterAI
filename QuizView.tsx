@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
-import { QuizQuestion } from '../types';
-import { useI18n } from '../services/i18n';
+import { QuizQuestion } from './types';
+import { useI18n } from './i18n';
 import BannerAd from './BannerAd';
 
 interface QuizViewProps {

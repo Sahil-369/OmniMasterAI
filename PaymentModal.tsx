@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { supabaseService } from '../services/supabaseService';
+import { supabaseService } from './supabaseService';
 
 interface PaymentModalProps {
   userId: string;

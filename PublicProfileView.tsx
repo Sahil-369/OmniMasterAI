@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { LeaderboardEntry, AuthUser } from '../types';
+import { LeaderboardEntry, AuthUser } from './types';
 import BannerAd from './BannerAd';
 
 interface PublicProfileViewProps {

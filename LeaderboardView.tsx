@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
-import { LeaderboardEntry, AuthUser, SavedSubject } from '../types';
-import { supabaseService } from './../services/supabaseService';
+import { LeaderboardEntry, AuthUser, SavedSubject } from './types';
+import { supabaseService } from './supabaseService';
 import BannerAd from './BannerAd';
 
 interface LeaderboardViewProps {

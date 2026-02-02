@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { NoticeData } from '../types';
+import { NoticeData } from './types';
 
 interface NoticeBoardProps {
   notice: NoticeData | null;

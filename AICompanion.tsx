@@ -1,9 +1,9 @@
 
 import React, { useState, useEffect, useRef } from 'react';
-import { ChatMessage, AppState } from '../types';
-import { useI18n } from '../services/i18n';
-import { getChatResponse, generateSpeech } from '../services/geminiService';
-import { databaseService } from '../services/databaseService';
+import { ChatMessage, AppState } from './types';
+import { useI18n } from './i18n';
+import { getChatResponse, generateSpeech } from './geminiService';
+import { databaseService } from './databaseService';
 
 interface AICompanionProps {
   appState: AppState;

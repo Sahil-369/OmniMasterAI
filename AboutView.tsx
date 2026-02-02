@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { useI18n } from '../services/i18n';
+import { useI18n } from './i18n';
 import Logo from './Logo';
 import BannerAd from './BannerAd';
 

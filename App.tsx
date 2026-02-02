@@ -2,27 +2,27 @@
 import React, { useState, useEffect, useCallback, useRef } from 'react';
 import { marked } from 'marked';
 import { Roadmap, TopicDetail, QuizQuestion, AppState, SavedSubject, UserSettings, AuthUser, UserUsage, LeaderboardEntry, NoticeData } from './types';
-import { generateRoadmap, generateTopicExplanation, generateQuiz, fetchDailyNews } from './services/geminiService';
-import { databaseService } from './services/databaseService';
-import { supabaseService } from './services/supabaseService';
-import { useI18n } from './services/i18n';
-import RoadmapSidebar from './components/RoadmapSidebar';
-import AICompanion from './components/AICompanion';
-import QuizView from './components/QuizView';
-import SubjectList from './components/SubjectList';
-import SettingsView from './components/SettingsView';
-import LoginView from './components/LoginView';
-import ProfileView from './components/ProfileView';
-import LeaderboardView from './components/LeaderboardView';
-import PublicProfileView from './components/PublicProfileView';
-import DailyRewardModal from './components/DailyRewardModal';
-import PaymentModal from './components/PaymentModal';
-import NewsView from './components/NewsView';
-import NoticeBoard from './components/NoticeBoard';
-import BannerAd from './components/BannerAd';
-import AboutView from './components/AboutView';
-import PolicyView from './components/PolicyView';
-import Logo from './components/Logo';
+import { generateRoadmap, generateTopicExplanation, generateQuiz, fetchDailyNews } from './geminiService';
+import { databaseService } from './databaseService';
+import { supabaseService } from './supabaseService';
+import { useI18n } from './i18n';
+import RoadmapSidebar from './RoadmapSidebar';
+import AICompanion from './AICompanion';
+import QuizView from './QuizView';
+import SubjectList from './SubjectList';
+import SettingsView from './SettingsView';
+import LoginView from './LoginView';
+import ProfileView from './ProfileView';
+import LeaderboardView from './LeaderboardView';
+import PublicProfileView from './PublicProfileView';
+import DailyRewardModal from './DailyRewardModal';
+import PaymentModal from './PaymentModal';
+import NewsView from './NewsView';
+import NoticeBoard from './NoticeBoard';
+import BannerAd from './BannerAd';
+import AboutView from './AboutView';
+import PolicyView from './PolicyView';
+import Logo from './Logo';
 
 const POPULAR_SUBJECTS = [
   { name: 'Quantum Physics', icon: 'fa-atom', color: 'bg-purple-600' },

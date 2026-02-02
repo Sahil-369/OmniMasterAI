@@ -1,6 +1,6 @@
 
 import React, { useState, useMemo } from 'react';
-import { LeaderboardEntry, AuthUser, SavedSubject } from '../types';
+import { LeaderboardEntry, AuthUser, SavedSubject } from './types';
 
 interface CommunityViewProps {
   currentUser: AuthUser;

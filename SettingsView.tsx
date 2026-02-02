@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
-import { UserSettings, AuthUser, CompanionPersona } from '../types';
-import { useI18n } from '../services/i18n';
+import { UserSettings, AuthUser, CompanionPersona } from './types';
+import { useI18n } from './i18n';
 import BannerAd from './BannerAd';
 
 interface SettingsViewProps {

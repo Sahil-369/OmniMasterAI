@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
-import { AuthUser } from '../types';
-import { supabaseService } from '../services/supabaseService';
+import { AuthUser } from './types';
+import { supabaseService } from './supabaseService';
 import Logo from './Logo';
 
 interface LoginViewProps {

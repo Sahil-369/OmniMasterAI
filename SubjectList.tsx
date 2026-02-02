@@ -1,7 +1,7 @@
 
 import React from 'react';
-import { SavedSubject } from '../types';
-import { useI18n } from '../services/i18n';
+import { SavedSubject } from './types';
+import { useI18n } from './i18n';
 import BannerAd from './BannerAd';
 
 interface SubjectListProps {
