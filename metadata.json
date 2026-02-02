@@ -1,0 +1,7 @@
+{
+  "name": "OmniMaster AI",
+  "description": "A comprehensive learning platform that uses Gemini AI to generate customized roadmaps, deep-dive explanations, and interactive quizzes for any subject, skill, or syllabus.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
